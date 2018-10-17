@@ -10,7 +10,7 @@ def rotate_character(char, rot):
         new_char = new_char.upper()
     return new_char
 
-def encrypt(text, rot):
+def rotate_string(text, rot):
     ciphertext = ''
     for char in text:
         ciphertext += rotate_character(char, rot)
