@@ -9,7 +9,7 @@ form = """
 
 <html>
     <head>
-    <p> This is just a test</p>
+    
         <style>
             form {{
                 background-color: #eee;
