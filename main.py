@@ -9,6 +9,7 @@ form = """
 
 <html>
     <head>
+    <p> This is just a test</p>
         <style>
             form {{
                 background-color: #eee;
@@ -48,7 +49,7 @@ def encrypt():
     rot = int(request.form["rot"])
     rotated_string = rotate_string(text,rot)
     result = "<h1>" + rotated_string + "</h1>"
-    return form.format("")
+    return form.format(rotated_string)
 
 
 
